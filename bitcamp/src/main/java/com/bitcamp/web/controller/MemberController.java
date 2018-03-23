@@ -28,6 +28,7 @@ public class MemberController {
 		logger.info("welcome {}","member!");
 		logger.info("전달된ID {}",m.getUserid());
 		logger.info("전달된PASS {}",m.getPassword());
+		logger.info("전달된PASS {}",m.getPassword());
 		map.put("flag", "success");
 		return map;
 	}
